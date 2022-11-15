@@ -1,0 +1,33 @@
+.galeria{
+  padding: 100px 0;
+}
+
+.galeria_container{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.galeria_h2{
+  font-size: 36px;
+  font-weight: 400;
+}
+
+.galeria_h2::before{
+  content: "";
+  position: absolute;
+  width: 110px;
+  height: 3px;
+  background-color: var(--verde);
+  margin-top: 50px;
+}
+
+.galeria-frame{
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+@media (max-width:1023px){
+  .galeria{
+    padding: 70px 0;
+  }
+}

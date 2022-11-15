@@ -1,0 +1,40 @@
+.info{
+  padding: 100px 0;
+}
+
+.info_container{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.info_h2{
+  font-weight: 400;
+  font-size: 36px;
+}
+
+.info_h2::before{
+  content: "";
+  position: absolute;
+  width: 130px;
+  height: 3px;
+  background-color: var(--verde);
+  margin-top: 50px;
+}
+
+.info_grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 250px);
+  justify-content: center;
+  gap: 25px;
+}
+
+.info_img{
+  object-fit: cover;
+  height: 250px;
+}
+
+@media (max-width:1024px){
+  .info{
+    padding: 70px 0;
+  }
+}
