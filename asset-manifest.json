@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/QuintaLaSabina2022/static/css/main.e9539f1c.css",
+    "main.js": "/QuintaLaSabina2022/static/js/main.5cfebcfc.js",
+    "index.html": "/QuintaLaSabina2022/index.html",
+    "main.e9539f1c.css.map": "/QuintaLaSabina2022/static/css/main.e9539f1c.css.map",
+    "main.5cfebcfc.js.map": "/QuintaLaSabina2022/static/js/main.5cfebcfc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e9539f1c.css",
+    "static/js/main.5cfebcfc.js"
+  ]
+}
